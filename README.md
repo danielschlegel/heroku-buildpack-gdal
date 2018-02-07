@@ -98,7 +98,7 @@ GDAL:
 
 ```bash
 mkdir -p /app/vendor
-curl -LO http://download.osgeo.org/gdal/gdal-1.9.1.tar.gz
+curl -LO http://download.osgeo.org/gdal/1.10.0/gdal-1.10.0.tar.gz
 tar xf gdal-1.10.0.tar.gz
 cd gdal-1.10.0
 ./configure --prefix=/app/vendor/gdal \
